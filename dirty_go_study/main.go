@@ -4,9 +4,9 @@ import (
 	"fmt"
 	//"go_study/assertion"
 	"unicode"
-	"go_study/item"
-	a "go_study/assertion"
-	_ "go_study/shape"
+	"dirty_go_study/item"
+	a "dirty_go_study/assertion"
+	_ "dirty_go_study/shape"
 )
 
 const (
