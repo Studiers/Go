@@ -15,7 +15,7 @@ notification:
     on_success: change
     on_failure: always
 
-before_script:
-  - go vet ./...
-  
+install:
+  - go get -t -v ./dirty_go_study/...
+
 script: go test .
