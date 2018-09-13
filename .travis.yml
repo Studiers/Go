@@ -17,5 +17,7 @@ notification:
 
 before_install:
   - cd dirty_go_study
+  - ls
 
-script: go test .
+install:
+  - echo "do nothing"
