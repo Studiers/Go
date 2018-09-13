@@ -21,3 +21,6 @@ before_install:
 
 install:
   - echo "do nothing"
+
+script:
+  - go build .
